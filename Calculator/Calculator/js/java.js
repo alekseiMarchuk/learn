@@ -1,8 +1,105 @@
 
+firstNumber = " "
+secondNumber = " "
+mathematicalSign = " "
+IsmathematicalSign = false
 
 
-if(document.querySelector("#buttonOne").onclick = true){
-console.log(1212);
+document.querySelector('#first').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "1"
+    }else{
+        firstNumber += "1"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#second').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "2"
+    }else{
+        firstNumber += "2"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#third').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "3"
+    }else{
+        firstNumber += "3"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#fourth').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "4"
+    }else{
+        firstNumber += "4"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#fifth').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "5"
+    }else{
+        firstNumber += "5"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#sixth').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "6"
+    }else{
+        firstNumber += "6"
+    }
+    console.log(firstNumber)
+}
+
+document.querySelector('#seventh').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "7"
+    }else{
+        firstNumber += "7"
+    }
+    console.log(firstNumber)
+}
+document.querySelector('#eighth').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "8"
+    }else{
+        firstNumber += "8"
+    }
+    console.log(firstNumber)
+}
+document.querySelector('#nineth').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "9"
+    }else{
+        firstNumber += "9"
+    }
+    console.log(firstNumber)
+}
+document.querySelector('#zero').onclick = function(){
+    
+    if(IsmathematicalSign){
+        secondNumber += "0"
+    }else{
+        firstNumber += "0"
+    }
+    console.log(firstNumber)
 }
 
 
@@ -13,9 +110,7 @@ console.log(1212);
 
 
 
-
-function Write1(numb){
-
+// function Write1(numb){
     // a = 0
     // b = 0
     // c = " "
@@ -40,13 +135,10 @@ function Write1(numb){
     // if(d == " = "){
     //     a = String(a);
     //     numb = String(numb);
-
-
     // }
-
     // console.log(a)
     // console.log(numb)
-}
+// }
 
 
 
