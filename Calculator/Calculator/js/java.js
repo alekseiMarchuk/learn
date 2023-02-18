@@ -3,16 +3,21 @@ firstNumber = " "
 secondNumber = " "
 mathematicalSign = " "
 IsmathematicalSign = false
+resolt = 0
+// allWrite = ""
 
 
 document.querySelector('#first').onclick = function(){
     
     if(IsmathematicalSign){
         secondNumber += "1"
+        
+        
     }else{
         firstNumber += "1"
     }
-    console.log(firstNumber)
+
+    document.querySelector('.allWritest').innerHTML += "1"
 }
 
 document.querySelector('#second').onclick = function(){
@@ -22,7 +27,7 @@ document.querySelector('#second').onclick = function(){
     }else{
         firstNumber += "2"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "2"
 }
 
 document.querySelector('#third').onclick = function(){
@@ -32,7 +37,7 @@ document.querySelector('#third').onclick = function(){
     }else{
         firstNumber += "3"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "3"
 }
 
 document.querySelector('#fourth').onclick = function(){
@@ -42,7 +47,7 @@ document.querySelector('#fourth').onclick = function(){
     }else{
         firstNumber += "4"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "4"
 }
 
 document.querySelector('#fifth').onclick = function(){
@@ -52,7 +57,7 @@ document.querySelector('#fifth').onclick = function(){
     }else{
         firstNumber += "5"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "5"
 }
 
 document.querySelector('#sixth').onclick = function(){
@@ -62,7 +67,7 @@ document.querySelector('#sixth').onclick = function(){
     }else{
         firstNumber += "6"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "6"
 }
 
 document.querySelector('#seventh').onclick = function(){
@@ -72,7 +77,7 @@ document.querySelector('#seventh').onclick = function(){
     }else{
         firstNumber += "7"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "7"
 }
 document.querySelector('#eighth').onclick = function(){
     
@@ -81,7 +86,7 @@ document.querySelector('#eighth').onclick = function(){
     }else{
         firstNumber += "8"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "8"
 }
 document.querySelector('#nineth').onclick = function(){
     
@@ -90,7 +95,7 @@ document.querySelector('#nineth').onclick = function(){
     }else{
         firstNumber += "9"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "9"
 }
 document.querySelector('#zero').onclick = function(){
     
@@ -99,8 +104,77 @@ document.querySelector('#zero').onclick = function(){
     }else{
         firstNumber += "0"
     }
-    console.log(firstNumber)
+    document.querySelector('.allWritest').innerHTML += "0"
 }
+
+document.querySelector('#plas').onclick = function(){
+    
+    IsmathematicalSign = true
+    mathematicalSign = "+"
+    document.querySelector('.allWritest').innerHTML += " + "
+
+}
+
+document.querySelector('#minus').onclick = function(){
+    
+    IsmathematicalSign = true
+    mathematicalSign = "-"
+    document.querySelector('.allWritest').innerHTML += " - "
+
+}
+
+document.querySelector('#multiply').onclick = function(){
+    
+    IsmathematicalSign = true
+    mathematicalSign = "*"
+    document.querySelector('.allWritest').innerHTML += " * "
+
+}
+
+document.querySelector('#divide').onclick = function(){
+    
+    IsmathematicalSign = true
+    mathematicalSign = "/"
+    document.querySelector('.allWritest').innerHTML += " / "
+
+}
+
+
+document.querySelector('#itt').onclick = function(){
+    
+    firstNumber = Number(firstNumber)
+    secondNumber = Number(secondNumber)
+
+    if(mathematicalSign == "+"){
+        resolt = firstNumber + secondNumber
+        console.log(resolt);
+    }else if(mathematicalSign == "-"){
+        resolt = firstNumber - secondNumber
+        console.log(resolt);
+    }else if(mathematicalSign == "*"){
+        resolt = firstNumber * secondNumber
+        console.log(resolt);
+    }else if(mathematicalSign == "-"){
+        resolt = firstNumber - secondNumber
+        console.log(resolt);
+    } else{
+        console.log('Вы что-то не правильно ввели')
+    }
+    document.querySelector('.allWritest').innerHTML += ` = ${resolt}`
+    
+    
+    
+}
+
+document.querySelector('#del').onclick = function(){
+    firstNumber = " "
+    secondNumber = " "
+    mathematicalSign = " "
+    IsmathematicalSign = false
+    resolt = 0
+    document.querySelector('.allWritest').innerHTML = ""
+}
+
 
 
 
