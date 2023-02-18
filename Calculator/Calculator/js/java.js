@@ -154,8 +154,8 @@ document.querySelector('#itt').onclick = function(){
     }else if(mathematicalSign == "*"){
         resolt = firstNumber * secondNumber
         console.log(resolt);
-    }else if(mathematicalSign == "-"){
-        resolt = firstNumber - secondNumber
+    }else if(mathematicalSign == "/"){
+        resolt = ((firstNumber / secondNumber).toFixed(5))
         console.log(resolt);
     } else{
         console.log('Вы что-то не правильно ввели')
