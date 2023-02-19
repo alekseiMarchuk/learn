@@ -52,107 +52,27 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	height: 793;
 	width: 793;
 	background-color: rgb(205, 230, 208);
-	display:flex;	
-	flex-wrap:wrap;
+	
+	display: grid;
+
+	grid-template-columns: 2fr repeat(9, 1fr) 2fr;
+	grid-template-rows: 2fr 1fr repeat(9, 1fr) 2fr;
+
 }
 
-.parking{
-	height: 122;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
+.grid_item{
+	text-align: center;
+	outline: 2px solid black;
+
 }
-.h1{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h2{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h3{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h4{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h5{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h6{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h7{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h8{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.h9{
-	height: 122;
-	width: 61;
-	border: solid 3px black;
-	outline:none;
-}
-.jail{
-	height: 122;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
+.grid_item1{
+	text-align: center;
+	outline: 2px solid black;
+	grid-auto-rows: 122;
+	grid-auto-columns: 122;
+
 }
 
-
-/* .insideBlock{
-	height: 549;
-	width: 549;
-	border: solid 3px black;
-	outline:none;
+/* .grid_item13{
+	grid-area: header;
 } */
-.l1{
-	height: 61;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
-}
-
-.r9{
-	height: 61;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
-}
-.l2{
-	height: 61;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
-}
-.r8{
-	height: 61;
-	width: 122;
-	border: solid 3px black;
-	outline:none;
-}
-
