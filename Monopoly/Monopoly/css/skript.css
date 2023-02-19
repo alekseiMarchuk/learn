@@ -45,92 +45,114 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 	justify-content:space-around;
 }
 
-.mapBorders{
-	
+.map{
 	
 	margin-top: 3%;
 	outline: solid 5px black;
-	height: 800;
-	width: 800;
+	height: 793;
+	width: 793;
 	background-color: rgb(205, 230, 208);
-
 	display:flex;	
-	flex-direction:row;
-	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+.parking{
+	height: 122;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
+}
+.h1{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h2{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h3{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h4{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h5{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h6{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h7{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h8{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.h9{
+	height: 122;
+	width: 61;
+	border: solid 3px black;
+	outline:none;
+}
+.jail{
+	height: 122;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
 }
 
 
-
-.boxHorizontally{
-	height: 550;
-	width: 800;
-	background-color: rgb(205, 230, 208);
-	margin: auto;
+/* .insideBlock{
+	height: 549;
+	width: 549;
+	border: solid 3px black;
+	outline:none;
+} */
+.l1{
+	height: 61;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
 }
 
-.verticalBox{
-	position: absolute;
-	height: 800;
-	width: 550;
-	background-color: rgb(205, 230, 208);
-	margin: auto;
+.r9{
+	height: 61;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
+}
+.l2{
+	height: 61;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
+}
+.r8{
+	height: 61;
+	width: 122;
+	border: solid 3px black;
+	outline:none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.horiz{
-	position: absolute;
-	height: 550;
-	/* width: 804; */
-	width: 800;
-
-	border-collapse: collapse;
-	
-}
-
-.vert{
-	position: absolute;
-	/* height: 804; */
-	height: 800;
-	width: 550;
-
-	border-collapse: collapse;
-}
-
-th{
-	position: relative;
-	/* border-top: 2px solid red;
-	border-left: 2px solid red;
-	border-right: 2px solid red;
-	border-bottom: 2px solid red; */
-} 
-
-td{
-	position: relative;
-	border: 2px solid black;
-
-}
-
-.blockInside{
-	position: absolute;
-	height: 550;
-	width: 550;
-	background-color: rgb(205, 230, 208);
-	border: 2px solid black;
-	
-	margin-top: 125px;
-
-
-	
-
-	
-}
