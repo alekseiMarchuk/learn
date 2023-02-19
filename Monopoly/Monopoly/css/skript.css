@@ -39,56 +39,264 @@ img{vertical-align: top;}
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 
+
 .theMain{
-	display:flex;	
+	display: flex;
 	flex-direction:row;
 	justify-content:space-around;
+	margin-top: 4%;
 }
 
-.mapBorders{
-	/* display:flex;	
-	flex-direction:row;
-	justify-content:space-between; */
-	
-	margin-top: 3%;
+.bord{
+	height: 793;
+	width: 793;
 	outline: solid 5px black;
-	height: 800;
-	width: 800;
-	background-color: rgb(205, 230, 208);
+	background-color: #cde6d0;
+
+
+	display:flex; 
+	flex-wrap:wrap;
 }
 
-/* .boxInside{
+.leftTop{
+	height: 122;
+	width: 122;
 	outline: solid 5px black;
-	height: 550;
-	width: 550;
-	margin: auto;
-} */
-
-.boxHorizontally{
-	/* position: fixed; */
-	/* position: absolute; */
-	/* margin-top: auto;
-	margin-bottom: auto; */
-
-	/* text-align: center; */
-	height: 550;
-	width: 800;
-	background-color: orange;
+}
+.top{
+	height: 127;
+	width: 549;
+	border-bottom: solid 5px black;
+	display:flex; 
+}
+.top1{
+	height: 127;
+	width: 66;
+	border-right: solid 5px black;
+}
+.top2{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top3{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top4{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top5{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top6{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top7{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top8{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
+}
+.top9{
+	height: 127;
+	width: 61;
+	border-right: solid 5px black;
 }
 
+.rightTop{
+	height: 122;
+	width: 122;
+	outline: solid 5px black;
+}
 
-/* 
-
-.table{
-	position: fixed;
-	height: 800;
-	width: 800;
-
-	border-collapse: collapse;
+.left{
+	height: 542;
+	width: 127;
+	border-right: solid 5px black;
+}
+.left1{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left2{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left3{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left4{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left5{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left6{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left7{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left8{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.left9{
+	height: 61;
+	width: 127;
 	
 }
 
-th, td {
-	border: 2px solid black;
+
+
+.center{
+	height: 539;
+	width: 539;
+	/* border: solid 5px black; */
+
+}
+
+.right{
+	height: 542;
+	width: 127;
+	border-left: solid 5px black;
+}
+.right1{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right2{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right3{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right4{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right5{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right6{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right7{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right8{
+	height: 61;
+	width: 127;
+	border-bottom: solid 5px black;
+}
+.right9{
+	height: 61;
+	width: 127;
 	
-}  */
+}
+
+
+.leftDown{
+	height: 127;
+	width: 127;
+	border-right: solid 5px black;
+	border-top: solid 5px black;
+}
+
+.down{
+	height: 127;
+	width: 539;
+	border-top: solid 5px black;
+
+	display: flex;
+	justify-content:space-around;
+}
+.bottom1{
+	height: 122;
+	width: 66;
+	border-right: solid 5px black;
+}
+.bottom2{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom3{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom4{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom5{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom6{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom7{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom8{
+	height: 122;
+	width: 61;
+	border-right: solid 5px black;
+}
+.bottom9{
+	height: 122;
+	width: 61;
+	
+}
+.rightDown{
+	height: 127;
+	width: 127;
+	border-left: solid 5px black;
+	border-top: solid 5px black;
+
+}
