@@ -37,3 +37,58 @@ ul li{list-style-type: none;}
 img{vertical-align: top;}
 
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+
+.theMain{
+	display:flex;	
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.mapBorders{
+	/* display:flex;	
+	flex-direction:row;
+	justify-content:space-between; */
+	
+	margin-top: 3%;
+	outline: solid 5px black;
+	height: 800;
+	width: 800;
+	background-color: rgb(205, 230, 208);
+}
+
+/* .boxInside{
+	outline: solid 5px black;
+	height: 550;
+	width: 550;
+	margin: auto;
+} */
+
+.boxHorizontally{
+	/* position: fixed; */
+	/* position: absolute; */
+	/* margin-top: auto;
+	margin-bottom: auto; */
+
+	/* text-align: center; */
+	height: 550;
+	width: 800;
+	background-color: orange;
+}
+
+
+/* 
+
+.table{
+	position: fixed;
+	height: 800;
+	width: 800;
+
+	border-collapse: collapse;
+	
+}
+
+th, td {
+	border: 2px solid black;
+	
+}  */
